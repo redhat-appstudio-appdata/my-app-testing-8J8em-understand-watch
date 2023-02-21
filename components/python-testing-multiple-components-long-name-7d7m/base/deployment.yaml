@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-testing-multiple-components-long-name-7d7m
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:8J8em-python-testing-multiple-components-long-name-7d7m
+      - image: quay.io/redhat-appstudio/user-workload@sha256:35aa6cc136383007a22bb0c46b36d25343a6460abf4baa1790f2af09bcd639f4
         name: my-python
         ports:
         - containerPort: 8081
